@@ -1,0 +1,1 @@
+Get-EventLog -LogName System -InstanceId 2147484722 -after (Get-date).addDays(-1)
